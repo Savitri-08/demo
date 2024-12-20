@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- * it was a universal selector  -->
+    <!-- id selctor ( #), 
+        class selector  (.), 
+             group selector  (h1,p), 
+                 descendent selector  (div > p)
+                 pseudo ocde(hover)
+                 attribute selectors-- > -->
+    <style>   
+      *{    
+        color:rgb(123, 122, 171);
+        text-align: center;
+        text-transform: capitalize;
+        font-style: italic;
+      }
+      p{
+        color: rgb(26, 139, 94);
+
+      }
+      h2 {
+
+        color: rgb(131, 87, 171);
+      }
+      #heading1{
+        color:rgb(33, 33, 154);
+      }
+      #heading2{
+        color: rgb(66, 126, 66);
+      }
+
+          .para{
+        color:blue;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+
+      h2,p{
+
+   color:red;
+     }
+       .id 
+       {
+        border: 10px  ridge  red;
+  
+        color:rgb(72, 154, 195)
+        
+       }
+       div > p{
+        color: blueviolet;
+       }
+       /*  adjecent sibling*/
+       h1+p+P{
+        color:rgb(30, 30, 187)
+       }
+
+       /*generaL Sibling selctor */
+      h1~ p{
+        color: rgb(242, 38, 38);
+       }
+       button{
+        padding: 7px 25px;
+        background-color: rgb(34, 198, 67);
+        border:1px solid black;
+        border-radius: 12px;
+        text-decoration: wavy;
+
+      }
+      button:hover{
+        padding: 7px 25px;
+        background-color:red;
+        cursor:pointer;
+        
+      }
+      a:visited{
+        color:rgb(9, 255, 0);
+      }
+      a:active{
+color:red;
+      }
+      /* attribute selctor*/
+[placeholder]{
+  color:red;
+  border:2px solid black;
+}
+
+
+  
+      
+    </style>
+</head>
+<body>
+  <!--
+  <div> 
+    <p>this is a direct child that will target 
+       child selector
+    </p>
+</div>
+    <h2 id="heading1"> <u>top series in netflix</u> </h2>
+    <p>money heist</p>
+    <p>stranger things</p>
+    <p>culpa mia</p>
+    <p>After</p>
+    <p>vamplire dairies</p>
+    <h2 id="heading2"><u>top series in hotstar</u></h2>
+    <p class="para">mismatched</p>
+    <p>thumbad</p>
+    <p>pirates of caribian</p>
+    <div class="id"> 
+      <h2> desecendent selctor </h2>
+    </div>
+    <h1>heading1</h1>
+    <p>paragraph 1</p><p> pargraph 2</p>
+    <button>submit</button>
+  -->
+    <a href="https://www.w3schools.com/CSS/css_selectors.asp">link</a>
+    <input type="text" placeholder="enter ur name">
+</body>
+</html>

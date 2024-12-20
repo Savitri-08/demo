@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landing{
+    background-image: url("./images/land8.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+}
+.landing h1{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    padding-top: 0px;
+}
+.landing p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-top: 20px;
+}
+button{
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    border: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 40%;
+}
